@@ -9,6 +9,8 @@ class ocr:
 
     def getPrediction(self):
         image = Image.open(self.filename)
-        lines = tesserocr.image_to_text(image)  
+        lines = tesserocr.image_to_text(Image.open(image))  
         return lines
+
+
 
