@@ -1,3 +1,4 @@
 # document-to-json
 
-In this project we use flask , flask-cors , tesseocr libraries for converting document like image into a json(Java script object notation) format
+In this project we will have different types of invoices from which we will extract important data like invoice number, invoice date, name etc and then we will convert into 
+the json format
