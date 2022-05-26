@@ -24,4 +24,4 @@ for installing the spacy,follow the link provided https://spacy.io/usage
 This project divided into four catogaries
 
 ### 1. Data Preparation 
-
+In this part, we have done 
