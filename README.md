@@ -13,8 +13,8 @@ ner(named entity recognization):- NER is an method which is used for recognizing
 
 ## Installation Process in linux
 
-for installing the library just open the command and write the following command pip install -r required.txt. Before installing the pytesseract, first install the following command 1.sudo apt install tesseract-ocr 2.sudo apt install libtesseract-dev after that install pytessaract via pip command.
-for installing the spacy,follow the 
+for installing the library just open the command and write the following command pip install -r required.txt. Before installing the pytesseract, first install the following command 1. sudo apt install tesseract-ocr 2. sudo apt install libtesseract-dev after that install pytessaract via pip command.
+for installing the spacy,follow the link provided https://spacy.io/usage
 
 
 
