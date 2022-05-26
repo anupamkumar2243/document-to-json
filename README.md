@@ -29,4 +29,12 @@ BIO(Beginning Inside outsid):- The BIO / IOB format (short for inside, outside, 
 
 ### 2. Data preprocessing
 
-In this part 
+In this part, we have done preprocessing the data using the preprocessing.ipynb and after that we have converted into the pickle format  (TrainData.pickle , TestData.pickle) which we have saved into the the data folder and after that we have converted into the spacy format(train.spacy , test.spacy) which we also saved into the data folder. For converting the pickle data into spacy format just run the preprocess.py file by the following command python preprocess.py which will automatically convert into the spacy format.
+
+### 3. Training Model
+
+In this part, we download the base_config.cfg file from the following link https://spacy.io/usage/training
+
+After downloading the base_config.cfg file than convert into the config.cfg using the following command    
+
+python -m spacy init fill-config base_config.cfg config.cfg
