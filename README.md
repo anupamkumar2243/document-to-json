@@ -9,6 +9,7 @@ This project is based on the convertion of financial document like invoice into 
 We use ocr(optical character recognization) and ner(named entity recognization)
 
 ocr(optical character recognization):- OCR is recognizing text in images, such as scanned documents and photos
+
 ner(named entity recognization):- NER is an method which is used for recognizing entities that are present in the text document
 
 ## Installation Process in linux
