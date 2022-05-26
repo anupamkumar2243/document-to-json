@@ -32,7 +32,7 @@ BIO(Beginning Inside outsid):- The BIO / IOB format (short for inside, outside, 
 In this part, we have done preprocessing the data using the preprocessing.ipynb and after that we have converted into the pickle format  (TrainData.pickle , TestData.pickle) which we have saved into the the data folder and after that we have converted into the spacy format(train.spacy , test.spacy) which we also saved into the data folder. For converting the pickle data into spacy format just run the preprocess.py file by the following command python preprocess.py which will automatically convert into the spacy format.
 
 ### 3. Training Model
-##### How does training pipeline works
+####   How does training pipeline works
 ![Screenshot from 2022-05-26 18-16-49](https://user-images.githubusercontent.com/37176796/170490739-6bceb675-770e-44bf-a371-9e4fa92b3d98.png)
 
 
