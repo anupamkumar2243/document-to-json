@@ -8,7 +8,7 @@ In this project the user will upload the document image and then it convert into
 
 We used personal invoices data around 60 images.
 
-#3 PROCESS OF THE PROJECT
+## PROCESS OF THE PROJECT
 
 This has divided into different part which has been shown below
 
