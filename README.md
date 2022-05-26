@@ -38,6 +38,12 @@ In this part, we have done preprocessing the data using the preprocessing.ipynb 
 
 In this part, we download the base_config.cfg file from the following link https://spacy.io/usage/training
 
-After downloading the base_config.cfg file than convert into the config.cfg using the following command    
+After downloading the base_config.cfg file than convert into the config.cfg so that it can fill automatically all the default values
+
+For convert into the config.cfg file just type the following command in terminal
 
 python -m spacy init fill-config base_config.cfg config.cfg
+
+Now we will train the data by the following command in terminal 
+
+python -m spacy train config.cfg --output ./output --paths.train ./data/train.spacy --paths.dev .data/dev.spacy
