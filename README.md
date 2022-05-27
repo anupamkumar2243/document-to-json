@@ -14,7 +14,11 @@ NER(named entity recognization):- NER is an method which is used for recognizing
 
 ## Installation Process in linux
 
-for installing the library just open the command and write the following command pip install -r required.txt. Before installing the pytesseract, first install the following command 1. sudo apt install tesseract-ocr 2. sudo apt install libtesseract-dev after that install pytessaract via pip command.
+for installing the library just open the command and write the following command pip install -r required.txt. Before installing the pytesseract, first install the following command 
+ sudo apt install tesseract-ocr
+ 
+ sudo apt install libtesseract-dev after that install pytessract via given command pip install pytesseract
+
 for installing the spacy,follow the link provided https://spacy.io/usage
 
 
@@ -56,28 +60,43 @@ In this part, we have created prediction.py file where we load the the model-bes
 
 <pre>
 .
-├── Resumes
-│   ├── CVs/
-│   ├── collectCV.py
+├── app
+│   ├── main.py
+│   ├── prediction.py
+|   ├── settings.py
+|   ├── utils.py
 │  
-├── Model
-│   ├── Model_Training.ipynb
-│   ├── Extraction_from_posts.ipynb
-│   ├── Sentence_Extraction.ipynb
-│   ├── StackExchange/
-│   ├── stackexchange_model
+├── app/data
+│   ├── TestData.pickle
+│   ├── TrainData.pickle
+│   ├── train.spacy
+│   ├── test.spacy
 │   
-├── Filter
-│   ├── CV_ranking.ipynb
-│   ├── Using Spacy Model.ipynb
-│   ├── With Word2Vec.ipynb
-│   ├── jd.csv
-│   └── prc_data.csv
-│   
-└── Extract
-    ├── Section_Extraction.ipynb
-    ├── convertDocxToText.py
-    ├── pdf2txt.py
-    ├── zipextract.py
+├── app/output
+│   ├── model-best
+│   └── model-last
+├── app/static
+│   ├── images
+│   ├── js
+│   ├── media
+|
+└── app/templates
+    ├── index.html
+    ├── predictions.html
+    ├── scanner.html
     
  </pre>
+ 
+Here i mention the folder structure which i have mentioned above 
+
+In this part, we have created the main.py where we have included all the libraries which had been done in the ipynb file and after that we have done four points coordinates and also included the prediction.py file in it.
+
+In settings.py where we have given the path where the all files are upload i.e app/static/media
+
+In utils .py, we created the function in which it process the images after the doing the four point coordinates and than it prepprocess the data and save into the app/static/media folder
+
+In app/data it contains all the training and testing data 
+
+In app/output it contains training model which had been trained which had been uploaded 
+
+In app/templates it contains all the html files which had been called in main.py for displaying the web application
