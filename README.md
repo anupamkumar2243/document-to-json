@@ -66,21 +66,19 @@ pip install pytesseract
     ├── scanner.html
     
  </pre>
- 
+  
 
-Here i mention the folder structure which i have mentioned above 
+- **main.py :-** Included all the libraries which had been done in the ipynb file, then have done four points coordinates and also included the **prediction.py** file in it.
 
-In this part, we have created the main.py where we have included all the libraries which had been done in the ipynb file and after that we have done four points coordinates and also included the prediction.py file in it.
+- **settings.py :-** where we have given the path where the all files are upload i.e app/static/media
 
-In settings.py where we have given the path where the all files are upload i.e app/static/media
+- **utils .py :-** we created the function in which it process the images after the doing the four point coordinates and than it prepprocess the data and save into the app/static/media folder
 
-In utils .py, we created the function in which it process the images after the doing the four point coordinates and than it prepprocess the data and save into the app/static/media folder
+- **app/data directory :-** it contains all the training and testing data. 
 
-In app/data it contains all the training and testing data 
+- **app/output :-** it contains training model which had been trained which had been uploaded. 
 
-In app/output it contains training model which had been trained which had been uploaded 
-
-In app/templates it contains all the html files which had been called in main.py for displaying the web application
+- **app/templates :-** it contains all the html files which had been called in main.py for displaying the web application.
 
 ## Division of the project
 
